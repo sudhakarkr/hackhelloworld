@@ -9,6 +9,7 @@ public class Greeting {
         this.id = id;
         this.content = content;
     }
+    //added a line
 
     public long getId() {
         return id;
