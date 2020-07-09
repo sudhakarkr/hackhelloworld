@@ -34,7 +34,9 @@ stages:
       displayName: 'Maven Package'
       inputs:
         mavenPomFile: 'pom.xml'
-
+    - task: KRSSampleExtn@0
+      inputs:
+        samplestring: 'test'
     - task: CopyFiles@2
       displayName: 'Copy Files to artifact staging directory'
       inputs:
